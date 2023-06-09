@@ -11,11 +11,11 @@ pipeline
     } 
   stages 
   {
-   stage ('Say Hi!')
+   stage ('Build')
      {
         steps
         {
-          sh 'echo hi'
+          sh 'mvn clean install'
          }
      }
   }
