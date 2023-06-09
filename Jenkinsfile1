@@ -1,3 +1,4 @@
+currentBuild.displayName = "MNI_Pipeline # "+currentBuild.number
 pipeline
 {
   agent any
