@@ -3,14 +3,7 @@ pipeline
   agent any
   stages 
   {
-    stage ('Checkout')
-    {
-      steps
-      {
-            git branch: 'mni-test', url: 'https://github.com/mnidevops/sample-web-application.git'
-      }
-     }
-     stage ('Say Hi!')
+   stage ('Say Hi!')
      {
         steps
         {
